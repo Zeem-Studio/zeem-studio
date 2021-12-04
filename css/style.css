@@ -7,8 +7,8 @@
   --highlight-color-t: rgba(38, 53, 54, 0.7);
   --white-color: rgb(255, 255, 255);
   --black-color: rgb(0, 0, 0);
-  --bg-img-1: url("../img/01.jpg");
-  --bg-img-2: url("https://source.unsplash.com/collection/69704296/1920x1080");
+  --bg-img-1: url('../img/background01.jpg');
+  --bg-img-2: url('../img/background02.jpg');
 }
 
 *,
@@ -19,7 +19,7 @@
   box-sizing: border-box;
   border: none;
   outline: none;
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 /*
@@ -62,7 +62,7 @@ body {
 }
 
 .header::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -199,7 +199,7 @@ img {
 
 .btn::after,
 .submitBtn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -308,7 +308,7 @@ img {
 
 .hamburger::before,
 .hamburger::after {
-  content: "";
+  content: '';
   width: 100%;
 }
 
@@ -342,7 +342,7 @@ img {
 }
 
 .nav__link::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -489,7 +489,7 @@ img {
 
 .about::before,
 .second::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -529,7 +529,7 @@ img {
 }
 
 .product::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
