@@ -1,10 +1,10 @@
 :root {
-  --main-color: rgb(53, 66, 68);
+  --main-color: rgb(45, 45, 45);
   --main-color-t: rgba(26, 23, 23, 0.7);
-  --second-color: rgb(40, 48, 49);
+  --second-color: rgb(90, 84, 80);
   --second-color-t: rgba(37, 35, 35, 0.7);
-  --highlight-color: rgb(235, 90, 23);
-  --highlight-color-t: rgba(38, 53, 54, 0.7);
+  --highlight-color: rgb(220, 85, 28);
+  --highlight-color-t: rgb(255, 255, 255);
   --white-color: rgb(255, 255, 255);
   --black-color: rgb(0, 0, 0);
   --bg-img-1: url('../img/background01.jpg');
