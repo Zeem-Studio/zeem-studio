@@ -190,6 +190,10 @@ img {
   text-decoration: none;
 }
 
+.product .btn {
+  font-weight: 400;
+}
+
 .submitBtn {
   width: 100%;
   text-align: center;
@@ -414,6 +418,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1rem;
   background-color: var(--second-color-t);
   padding: 1em;
   position: relative;
