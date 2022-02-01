@@ -880,8 +880,8 @@ img {
   width: 100%;
   color: white;
   text-align: center;
-  background: var(--highlight-color);
-  border-right: 5px solid red;
+  background: var(--second-color);
+  border-right: 5px solid var(--highlight-color);
 }
 .portfolio .project-card__button:last-child {
   border-right: none;
