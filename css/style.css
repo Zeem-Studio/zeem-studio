@@ -190,6 +190,10 @@ img {
   text-decoration: none;
 }
 
+.product .btn {
+  font-weight: 400;
+}
+
 .submitBtn {
   width: 100%;
   text-align: center;
@@ -234,7 +238,9 @@ img {
   animation: arrowAnim 2s ease-in-out infinite;
 }
 
-/* MAIL STATUS */
+/* 
+  MAIL STATUS 
+*/
 .mail-status {
   display: none;
   text-align: center;
@@ -384,20 +390,6 @@ img {
   width: 100%;
 }
 
-/* .logo p {
-  font-size: 14px;
-  white-space: nowrap;
-}
-
-.logo::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f0ac";
-  text-decoration: none;
-  color: var(--white-color);
-  margin-right: 5px;
-} */
-
 /*
   ALL SECTIONS
 */
@@ -423,6 +415,10 @@ img {
 
 .hero__second,
 .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
   background-color: var(--second-color-t);
   padding: 1em;
   position: relative;
@@ -522,10 +518,6 @@ img {
 .products {
   color: var(--white-color);
   min-height: 100vh;
-}
-
-.certificat {
-  padding-top: 15px;
 }
 
 .product::after {
@@ -796,7 +788,7 @@ img {
 
   /* PRODUCT SECTION */
   .product {
-    width: 30%;
+    width: 24%;
   }
 
   /* CONTACT SECTION */
