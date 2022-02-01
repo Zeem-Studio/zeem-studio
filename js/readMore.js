@@ -7,10 +7,10 @@ for (i = 0; i < readMoreBtn.length; i++) {
     var content = this.previousElementSibling;
     if (content.style.maxHeight) {
       content.style.maxHeight = null;
-      this.textContent = 'Read more';
+      this.textContent = 'Weiterlesen';
     } else {
       content.style.maxHeight = content.scrollHeight + 'px';
-      this.textContent = 'Show less';
+      this.textContent = 'Zeige weniger';
     }
   });
 }
