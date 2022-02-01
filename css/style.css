@@ -860,6 +860,7 @@ img {
 }
 .portfolio .project-card {
   margin: 25px 0;
+  color: var(--white-color);
 }
 .portfolio .project__info {
   padding-top: 25px;
@@ -879,8 +880,8 @@ img {
   width: 100%;
   color: white;
   text-align: center;
-  background: #ff6f00;
-  border-right: 5px solid #e1a100;
+  background: var(--highlight-color);
+  border-right: 5px solid red;
 }
 .portfolio .project-card__button:last-child {
   border-right: none;
@@ -910,8 +911,25 @@ img {
 
 .portfolio .project-card {
   padding: 25px;
-  background: linear-gradient(45deg, #414141 30%, #ff8f39);
+  background: var(--main-color);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
     0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11), 0px 50px 20px -30px rgba(0, 0, 0, 0.7);
-  border-bottom: 5px solid #e1a100;
+  border-bottom: 5px solid var(--highlight-color);
+}
+
+.readMore {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.readMoreBtn {
+  padding: 15px;
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: var(--second-color);
+  margin-top: 15px;
+  color: inherit;
 }
